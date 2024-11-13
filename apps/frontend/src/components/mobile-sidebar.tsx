@@ -31,7 +31,7 @@ export const MobileSidebar = () => {
         >
           <div className="flex flex-col justify-start">
             <h1 className="text-center text-white text-2xl font-bold tracking-tighter ">
-              100xchess
+              Chess
             </h1>
             <SideNav items={UpperNavItems} setOpen={setOpen} />
           </div>

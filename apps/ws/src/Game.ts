@@ -137,6 +137,8 @@ export class Game {
           whitePlayer: {
             name: WhitePlayer?.name,
             id: this.player1UserId,
+            
+           
             isGuest: WhitePlayer?.provider === AuthProvider.GUEST,
           },
           blackPlayer: {
