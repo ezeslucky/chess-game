@@ -41,7 +41,7 @@ export default function Sidebar({ className }: SidebarProps) {
     >
       <div className="flex flex-col h-full justify-between">
         <div className="flex flex-col justify-start">
-          {isOpen && <span className="text-center text-2xl font-bold tracking-tighter ">100xchess</span>}
+          {isOpen && <span className="text-center text-2xl font-bold tracking-tighter ">Chess</span>}
 
           <SideNav
             className="opacity-0 transition-all duration-300 group-hover:z-50  group-hover:rounded group-hover:bg-black p-1 group-hover:opacity-100"

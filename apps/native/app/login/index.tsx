@@ -8,7 +8,7 @@ const LoginScreen = () => {
     <View style={styles.container}>
       <Stack.Screen options={{ headerTitle: '' }} />
       <Text style={styles.title}>Create your</Text>
-      <Text style={styles.title}>100XChess account</Text>
+      <Text style={styles.title}>Chess account</Text>
       <Image source={PIECES['bk']} style={styles.image} />
       <Pressable
         style={{ width: '100%' }}
