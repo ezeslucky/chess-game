@@ -60,6 +60,7 @@ model Move {
   @@index([gameId])
 }
 
+
 enum GameStatus {
   IN_PROGRESS
   COMPLETED

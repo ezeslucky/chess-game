@@ -7,6 +7,7 @@ import {
 import { db } from './db';
 import { randomUUID } from 'crypto';
 import { socketManager, User } from './SocketManager';
+import { AuthProvider } from '@prisma/client';
 
 type GAME_STATUS = 'IN_PROGRESS' | 'COMPLETED' | 'ABANDONED' | 'TIME_UP' | 'PLAYER_EXIT';
 type GAME_RESULT = "WHITE_WINS" | "BLACK_WINS" | "DRAW";

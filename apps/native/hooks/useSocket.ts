@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 // import { useUser } from "@repo/store/useUser";
 
-const WS_URL = 'wss://chess-ws.100xdevs.com/';
+const WS_URL = 'wss://chess-ws.100xdevs.com';
 
 const user = {
   token: '1234kkiioo',

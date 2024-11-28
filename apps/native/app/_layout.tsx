@@ -29,13 +29,13 @@ export default function RootLayoutNav() {
           <Stack.Screen
             name="index"
             options={{
-              headerTitle: `100X Chess`,
+              headerTitle: ` Chess`,
             }}
           />
           <Stack.Screen
             name="game/index"
             options={{
-              headerTitle: `100X Chess`,
+              headerTitle: ` Chess`,
             }}
           />
 

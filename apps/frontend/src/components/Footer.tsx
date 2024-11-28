@@ -1,6 +1,5 @@
 import {
   GitHubLogoIcon,
-  VideoIcon,
   TwitterLogoIcon,
 } from '@radix-ui/react-icons';
 import { Link } from 'react-router-dom';
@@ -17,13 +16,11 @@ export const Footer = () => {
         </div>
         <div>
           <div className="flex gap-3 mt-4">
-            <a href="https://github.com/hkirat" target="_blank">
+            <a href="https://github.com/ezeslucky" target="_blank">
               <GitHubLogoIcon />
             </a>
-            <a href="https://www.youtube.com/@harkirat1" target="_blank">
-              <VideoIcon />
-            </a>
-            <a href="https://twitter.com/kirat_tw" target="_blank">
+           
+            <a href="https://x.com/ezeslucky" target="_blank">
               <TwitterLogoIcon />
             </a>
           </div>

@@ -22,7 +22,7 @@ export const MobileSidebar = () => {
         <SheetTrigger asChild>
           <div className="flex items-center justify-center gap-2">
             <MenuIcon />
-            <h1 className="text-lg font-semibold">Chess</h1>
+            <h1 className="text-lg text-green-600 font-semibold">Chess</h1>
           </div>
         </SheetTrigger>
         <SheetContent
